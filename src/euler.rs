@@ -21,7 +21,8 @@ fn euler_limit(n_limit: u32) -> f64 {
 
 // You can use the main function as your playground
 fn main() {
-    // println!("euler_series(10) = {}", euler_series(10));
+    println!("euler_series(10) = {}", euler_series(10));
+    println!("euler_limit(1_000) = {}", euler_limit(1_000));
 }
 
 
