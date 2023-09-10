@@ -20,12 +20,14 @@ fn euler_limit(n_limit: u32) -> f64 {
 }
 
 // You can use the main function as your playground
+// Feel free to edit/use it for experimenting with your code
+// The main function will not be tested/graded in this file
 fn main() {
     println!("euler_series(10) = {}", euler_series(10));
     println!("euler_limit(1_000) = {}", euler_limit(1_000));
 }
 
-
+//////////////////////////////////////////////////////////////////////////////
 // DO NOT EDIT BELOW THIS LINE
 #[cfg(test)]
 mod tests {

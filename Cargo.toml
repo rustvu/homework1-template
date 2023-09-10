@@ -4,6 +4,22 @@ version = "0.1.0"
 edition = "2021"
 
 [[bin]]
+name = "variables"
+path = "src/variables.rs"
+
+[[bin]]
+name = "basic_types"
+path = "src/basic_types.rs"
+
+[[bin]]
+name = "functions"
+path = "src/functions.rs"
+
+[[bin]]
+name = "ownership"
+path = "src/ownership.rs"
+
+[[bin]]
 name = "euler"
 path = "src/euler.rs"
 
