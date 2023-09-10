@@ -4,6 +4,8 @@ This assignment contains several smaller programming exercises w.r.t basic conce
 
 The source code of these exercises is in the files under the `src/` folder. You job is to make sure that each of them compiles and builds properly and passes any of the built-in tests (some exercises only need to be fixed to pass the compiler, some others are also tested against the expected functionality).
 
+Try to solve the exercises with minimum changes and additions to the existing code. I placed `// TODO` comments in the code where I expect you make changes. The test code is clearly marked with a `// DO NOT EDIT BELOW THIS LINE` comment. This should be evident: changing the test code is a (not too intelligent) way of cheating. I will handle any such attempts accordingly.
+
 ## Use
 You can always check your work with `cargo test`.
 
