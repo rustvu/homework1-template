@@ -13,7 +13,7 @@ You can always check your work with `cargo test`.
 - If you run `cargo test` in the project folder it will tell you all compilation and testing problems you still need to solve.
 - You can also run `cargo test --bin <exercise>`, where `<exercise>` is one of the exercise names to focus on the results of that particular exercise, only.
 
-Some exercises contain a _dummy_ `main()` function, where you can use this function for your own needs (you can see this in the comments I left in the relevant files). It is up to you if and how you want to use these for your development work. You can use `cargo run -bin <exercise>` to see your the execution results of you `main()` function. The only important requirement is that these should not break the compilation/build process.
+Some exercises contain a _dummy_ `main()` function, where you can use this function for your own needs (you can see this in the comments I left in the relevant files). It is up to you if and how you want to use these for your development work. You can use `cargo run --bin <exercise>` to see your the execution results of you `main()` function. The only important requirement is that these should not break the compilation/build process.
 
 ## Grading
 
