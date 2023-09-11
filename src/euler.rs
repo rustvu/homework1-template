@@ -3,20 +3,13 @@
 
 // Estimate e with series: 1/1 + 1/1 + 1/(1*2) + 1/(1*2*3) + ...
 fn euler_series(n_terms: u32) -> f64 {
-    let mut e = 1.0;
-    let mut denominator = 1.0;
-    for i in 1..n_terms {
-        denominator *= i as f64;
-        e += 1.0 / denominator;
-    }
-    e
+    // TODO: implement this function
 }
    
 
 // Estimate e based on the limit formula: (1 + 1/n) ^ n
 fn euler_limit(n_limit: u32) -> f64 {
-    let n = n_limit as f64;
-    (1.0 + 1.0 / n).powf(n)
+    // TODO: implement this function
 }
 
 // You can use the main function as your playground

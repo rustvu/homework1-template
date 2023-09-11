@@ -1,23 +1,23 @@
 // Functions in Rust
 
-fn is_prime(n: u32) -> bool {
+// TODO: Add the missing pieces to this function 
+fn is_prime(n) {
     if n < 2 {
         return false;
     }
     for i in 2..n {
-        if n % i == 0 {
+        if n % i {
             return false;
         }
     }
-    true
 }
 
-fn factorial(n: u32) -> f64 {
-    let mut product = 1.0;
+// TODO: Add the missing pieces to this function 
+fn factorial(n) {
+    let product = 1.0;
     for i in 1..=n {
-        product *= i as f64
+        product *= i;
     }
-    product
 }
 
 // You can use the main function as your playground

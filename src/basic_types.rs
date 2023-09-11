@@ -3,24 +3,27 @@
 fn arrays() {
     let arr = [1, 2, 3, 4, 5];
 
-    println!("Array length is {}", arr.len());
+    // TODO: finish the next line (please, do not hardcode 5)
+    println!("Array length is {}", );
 }
 
 fn tuples() {
     let person = ("Peter", 47);
 
-    println!("{} is {} years old.", person.0, person.1);
+    // TODO: use the tuple fields to print the results
+    println!("{} is {} years old.", );
 }
 
 fn methods() {
-    let x = -12i32;
+    // TODO: understand and fix the problem in this function
+    let x = -12;
     println!("The absolute value of x^3: {}", x.pow(3).abs());
 }
 
 fn chars() {
     let ch = '7';
 
-    if ch.is_digit(10) {
+    if // TODO: finish this line, so that the program compiles and behaves as expected
         println!("ch is a decimal digit");
     } else {
         println!("ch is NOT a decimal digit");
@@ -33,7 +36,7 @@ fn bools() {
         println!("Good morning!");
     }
 
-    let is_evening = !is_morning;
+    // TODO: declare and initialize the `is_evening` variable
     if is_evening {
         println!("Good evening!");
     }
@@ -42,7 +45,8 @@ fn bools() {
 fn numbers() {
     let x = 13;
     let y = 2.0;
-    let z = x as f64 * y;
+    // TODO: fix this line to compile
+    let z = x * y;
 
     println!("{z}");
 }

@@ -3,19 +3,21 @@
 fn shadow_variable() {
     let x = 5;
     println!("Before change {}", x);
-    let x = "seven";
+    // TODO: fix the next line, so the function compiles (do not modify other lines in this function)
+    x = "seven";
     println!("After change {}", x);
 }
 
 fn mutable_variable() {
-    let mut x = 5;
+    // TODO: fix the next line, so the function compiles (do not modify other lines in this function)
+    let x = 5;
     println!("Before change {}", x);
     x += 8;
     println!("After change {}", x);
 }
 
 fn basic_variable() {
-    let x = 42;
+    // TODO: add the necessary variable declaration/initialization
     println!("My favorite number is: {}", x);
 }
 
