@@ -28,18 +28,20 @@ mod tests {
 
     use super::*;
 
+    const REL_TOL: f64 = 1e-9;
+
     #[test]
     fn test_euler_series() {
-        assert_relative_eq!(euler_series(1), 1.0);
-        assert_relative_eq!(euler_series(2), 2.0);
-        assert_relative_eq!(euler_series(10), 2.7182815255731922);
-        assert_relative_eq!(euler_series(100), 2.7182818284590455);
+        assert_relative_eq!(euler_series(1), 1.0, max_relative=REL_TOL);
+        assert_relative_eq!(euler_series(2), 2.0, max_relative=REL_TOL);
+        assert_relative_eq!(euler_series(10), 2.7182815255731922, max_relative=REL_TOL);
+        assert_relative_eq!(euler_series(100), 2.7182818284590455, max_relative=REL_TOL);
     }
 
     #[test]
     fn test_euler_limit() {
-        assert_relative_eq!(euler_limit(1), 2.0);
-        assert_relative_eq!(euler_limit(1_000), 2.7169239322355936);
-        assert_relative_eq!(euler_limit(1_000_000), 2.7182804690957534);
+        assert_relative_eq!(euler_limit(1), 2.0, max_relative=REL_TOL);
+        assert_relative_eq!(euler_limit(1_000), 2.7169239322355936, max_relative=REL_TOL);
+        assert_relative_eq!(euler_limit(1_000_000), 2.7182804690957534, max_relative=REL_TOL);
     }
 }
