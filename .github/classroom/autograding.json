@@ -1,0 +1,54 @@
+{
+  "tests": [
+    {
+      "name": "variables",
+      "setup": "",
+      "run": "cargo test --bin variables",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 10
+    },
+    {
+      "name": "basic_types",
+      "setup": "",
+      "run": "cargo run --bin basic_types",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 20
+    },
+    {
+      "name": "functions",
+      "setup": "",
+      "run": "cargo run --bin functions",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 20
+    },
+    {
+      "name": "ownership",
+      "setup": "",
+      "run": "cargo run --bin ownership",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 20
+    },
+    {
+      "name": "euler",
+      "setup": "",
+      "run": "cargo run --bin euler",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 30
+    }
+  ]
+}
